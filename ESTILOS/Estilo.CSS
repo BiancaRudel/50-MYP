@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+     
+    body {
+       padding: 0;
+       margin: 0;
+       font-family: 'Bebas Neue', sans-serif;
+       background-color: #b41515;
+       
+      }
+      .background{ 
+         position: absolute;
+         z-index: -1;
+         top: 250px;
+         left: -150px;
+         opacity: 0.5;
+         background-attachment: fixed;
+         
+       }
+    
+    nav {
+       background-color: #646161;
+       padding: 10px 80px ;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
+    .btn-primary {
+
+      font-family: 'Bebas Neue', sans-serif;
+       background-color: #e6e6e6;
+       border: none;
+       padding: 10px 10px;
+       border-radius: 50px;
+       cursor: active; 
+       color :  black;
+       justify-content: space-around;
+       align-content: center;
+       max-width: 300px ;
+       width: max-content;
+       min-width: 250px;
+       cursor: pointer;
+         
+   }
+       
+    
+
+.btn-primary:hover{ 
+   transition:0.3s;
+   background-color: #b41515;
+}
+      .ctas {
+      font-family: 'Bebas Neue', sans-serif;
+       display: flex;
+       flex-direction: row ;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+       width: 10px;
+       height: 10px;
+       cursor: active; color: #b41515;
+
+       
+    }
+    a{
+    color: black; text-decoration: none; font-weight: 900; font-size: 20px;
+    
+    }
+
+    main {
+       padding: 30px;
+    }
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+       font-size: 60px;
+       font-weight: 900;
+       color: #e6e6e6;
+       margin: 0;
+       padding-top: 0;
+       text-transform: uppercase;
+       display: flex;
+       align-items: center;
+       gap: 20px;
+       z-index: 3;
+    }
+    span {
+      font-family: 'Bebas Neue', sans-serif;
+       font-size: 100px;
+       letter-spacing: 12px;
+    }
+   
+    .sticky-footer {
+       position: fixed;
+          bottom: 0;
+       right: 0;
+       background-color: #a09d9d;
+       padding: 20px 0px 20px 60px;
+       width: 70%; 
+       border-radius: 100px 0 0 0;
+       display: flex;
+
+    }
+    iframe{
+      width: 20%;
+      height: auto;
+
+    }
+
+   .juan{ 
+      display:flex;
+      flex-direction: column;
+      margin-right: 100px;
+     
+
+   }
+   .user-icon {
+      background-color: #e6e6e6;
+       border: none;
+       padding: 5px 5px;
+       border-radius: 100px 0 0 0; 
+
+   }
+   .cuadrado {          
+    position: fixed;
+    right: 0;
+      background-color: #e6e6e6;
+      height: 400% !important;
+      width: 25%;
+      border-radius: 100px 0 0 0;
+      display:flex;
+      align-items: flex-start;
+      justify-content: center;
+
+    }
+
+    .cuadrado p{ 
+      padding-top: 5px;
+      color: rgb(6, 5, 5);
+      font-size: 40px;
+      font-family: 'Bebas Neue', sans-serif;
+
+    }
+.user-boton{
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+
+}
+.user-boton:hover{ 
+   transition:0.3s;
+   background-color: #b41515;
+}
+
+.metas{
+    width: 30%;
+    height: 30%;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+   
+}
+
+.metas img{
+    display: flex;
+    width: 40%;
+    height: 50vh;
+    overflow-x: visible;
+    scroll-snap-align: center;
+    float: left;
+    flex: 0 0 100%;
+    object-fit: contain;
+    
+
+      
+}
+
+.metas p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(148, 139, 139);
+    display: flex;
+    position: absolute;
+    top:40%;
+    left:30%;
+    -webkit-text-stroke-color: black;
+   
+   
+
+
+}
+.metas p2{ 
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 10%;
+    justify-content: right;
+    flex-direction: column;
+    position: absolute;
+    top:52%;
+    left:20%;
+    right: 30%;
+     
+}
+
+
+
+
+   
+
+
+    
+
+
+
+  
+
+   
